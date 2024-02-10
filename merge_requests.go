@@ -208,6 +208,8 @@ type ListMergeRequestsOptions struct {
 	ApprovedByIDs          *ApproverIDsValue `url:"approved_by_ids,omitempty" json:"approved_by_ids,omitempty"`
 	ReviewerID             *ReviewerIDValue  `url:"reviewer_id,omitempty" json:"reviewer_id,omitempty"`
 	ReviewerUsername       *string           `url:"reviewer_username,omitempty" json:"reviewer_username,omitempty"`
+	MergeUserID            *int              `url:"merge_user_id,omitempty" json:"merge_user_id,omitempty"`
+	MergeUserUsername      *string           `url:"merge_user_username,omitempty" json:"merge_user_username,omitempty"`
 	MyReactionEmoji        *string           `url:"my_reaction_emoji,omitempty" json:"my_reaction_emoji,omitempty"`
 	SourceBranch           *string           `url:"source_branch,omitempty" json:"source_branch,omitempty"`
 	TargetBranch           *string           `url:"target_branch,omitempty" json:"target_branch,omitempty"`
